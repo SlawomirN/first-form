@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dziennik WTF - Sławek Nowodworski</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <main class="main">
+        <header id="top">
+            <h1 class="main-header text-background">Dziennik WTF - Formularze</h1>
+        </header>
+
+
+        <form class="form">
+            <p>
+                <label for="firstName">Your name:</label>
+                <input class="form__item" type="text" value="" placeholder="Enter your first name" id="firstName"
+                    name="firstName">
+            </p>
+            <p>
+                <label>Your last name:
+                    <input class="form__item" type="text" placeholder="Enter your last name" id="lasttName"
+                        name="lastName">
+                </label>
+            </p>
+
+
+            <p>
+                <label for="phoneNumber">Your phone:</label>
+                <input class="form__item" type="text" value="" placeholder="Enter your phone number" id="phoneNumber"
+                    name="phoneNumber">
+            </p>
+            <fieldset>
+                <legend>Address</legend>
+                <p>
+                    <label for="streetName">Street name:</label>
+                    <input class="form__item" type="text" value="" placeholder="Enter your street name" id="streetName"
+                        name="firstName">
+                </p>
+                <p>
+                    <label for="houseNumber">Your house number:</label>
+                    <input class="form__item" type="text" value="" placeholder="Enter your house number"
+                        id="houseNumber" name="houseNumber">
+                </p>
+                <p>
+                    <label>Your city:
+                        <input class="form__item" type="text" placeholder="Enter your city name" id="cityName"
+                            name="cityName">
+                    </label>
+                </p>
+
+            <fieldset>
+                <legend>Favorite icecream flavor</legend>
+                <p>
+                    <label><input name="iceCream" type="radio" value="chocolate">Chocolate</label>
+                </p>
+                <p>
+                    <label><input name="iceCream" checked type="radio" value="strawberry">Strawberry</label>
+                </p>
+                <p>
+                    <label><input name="iceCream" type="radio" value="vanilla">Vanilla</label>
+                </p>
+                <p>
+                    <label><input name="iceCream" type="checkbox" value="mint">Mint</label>
+                </p>
+            </fieldset>
+            <p>
+                <label><input name="agreement" type="checkbox" checked value="agree">I agree to everything</label>
+            </p>
+
+
+               
+            </fieldset>
+        </form>
+
+
+
+</body>
+
+</html>
